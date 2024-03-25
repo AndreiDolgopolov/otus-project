@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
+	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<ChildItems>
+		<InputField name="КартаОсновная" id="1">
+			<DataPath>Запись.КартаОсновная</DataPath>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="КартаОсновнаяКонтекстноеМеню" id="2"/>
+			<ExtendedTooltip name="КартаОсновнаяРасширеннаяПодсказка" id="3"/>
+		</InputField>
+		<CheckBoxField name="ПеревернутаяОсновная" id="4">
+			<DataPath>Запись.ПеревернутаяОсновная</DataPath>
+			<CheckBoxType>Auto</CheckBoxType>
+			<ContextMenu name="ПеревернутаяОсновнаяКонтекстноеМеню" id="5"/>
+			<ExtendedTooltip name="ПеревернутаяОсновнаяРасширеннаяПодсказка" id="6"/>
+		</CheckBoxField>
+		<InputField name="КартаСоседняя" id="7">
+			<DataPath>Запись.КартаСоседняя</DataPath>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="КартаСоседняяКонтекстноеМеню" id="8"/>
+			<ExtendedTooltip name="КартаСоседняяРасширеннаяПодсказка" id="9"/>
+		</InputField>
+		<CheckBoxField name="ПеревернутаяСоседняя" id="10">
+			<DataPath>Запись.ПеревернутаяСоседняя</DataPath>
+			<CheckBoxType>Auto</CheckBoxType>
+			<ContextMenu name="ПеревернутаяСоседняяКонтекстноеМеню" id="11"/>
+			<ExtendedTooltip name="ПеревернутаяСоседняяРасширеннаяПодсказка" id="12"/>
+		</CheckBoxField>
+		<InputField name="ОбластьГадания" id="13">
+			<DataPath>Запись.ОбластьГадания</DataPath>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ОбластьГаданияКонтекстноеМеню" id="14"/>
+			<ExtendedTooltip name="ОбластьГаданияРасширеннаяПодсказка" id="15"/>
+		</InputField>
+		<InputField name="ЗначениеГадания" id="16">
+			<DataPath>Запись.ЗначениеГадания</DataPath>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ЗначениеГаданияКонтекстноеМеню" id="17"/>
+			<ExtendedTooltip name="ЗначениеГаданияРасширеннаяПодсказка" id="18"/>
+		</InputField>
+		<InputField name="Уточнение" id="19">
+			<DataPath>Запись.Уточнение</DataPath>
+			<AutoMaxWidth>false</AutoMaxWidth>
+			<AutoMaxHeight>false</AutoMaxHeight>
+			<HorizontalStretch>true</HorizontalStretch>
+			<VerticalStretch>true</VerticalStretch>
+			<MultiLine>true</MultiLine>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="УточнениеКонтекстноеМеню" id="20"/>
+			<ExtendedTooltip name="УточнениеРасширеннаяПодсказка" id="21"/>
+		</InputField>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Запись" id="1">
+			<Type>
+				<v8:Type>cfg:InformationRegisterRecordManager.СоседниеКарты</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+		</Attribute>
+	</Attributes>
+</Form>
